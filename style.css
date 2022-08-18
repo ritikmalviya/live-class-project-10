@@ -1,7 +1,133 @@
-body{
-    background-color: rgb(41, 41, 255);
-    color: #fff;
+body {
+  background-image: url(asset/bg\ img.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
 }
-.call{
-    display: inline;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 20px;
+  width: 150px;
+}
+.left-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: -250px;
+}
+.item {
+  margin-right: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.call-us {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.text p,
+.text h4 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+.heading-section {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.heading-section h1 {
+  font-size: 80px;
+}
+.learn-more {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.right-top {
+  position: absolute;
+  background: rgb(255 255 255 / 40%);
+  margin-bottom: 20px;
+  position: absolute;
+  right: 100px;
+  width: 250px;
+  padding: 10px 20px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-top .down-line {
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  background-color: #ffffff;
+  top: 155px;
+  left: 220px;
+}
+.down-line .circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: -8px;
+}
+
+.right-bottom {
+  background: rgb(255 255 255 / 40%);
+  margin-bottom: 20px;
+  position: absolute;
+  right: 350px;
+  width: 250px;
+  padding: 10px 20px;
+  height: 135px;
+  top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-line {
+  position: absolute;
+  height: 70px;
+  width: 2px;
+  background-color: #ffffff;
+  right: -36px;
+  top: 20px;
+  transform: rotate(-90deg);
+}
+.right-line .circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: -8px;
+}
+.bulb {
+  position: relative;
+  right: 100px;
 }
